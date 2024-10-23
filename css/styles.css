@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+:root {
+   --linear-bg-clr: linear-gradient(186deg, lightblue, #6fe1f0, rgb(99, 99, 182));
+   --default-black-clr: #252525;
+   --white-clr: #fff;
+   --random-btn-clr: rgb(124, 65, 94);
+   --reset-btn-clr: rgb(127, 168, 127);
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: var(--linear-bg-clr);
+   font-family: Poppins, sans-serif;
+   font-size: 16px;
+   line-height: 1.2;
+}
+

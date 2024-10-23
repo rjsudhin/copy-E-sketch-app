@@ -26,3 +26,11 @@ body {
    line-height: 1.2;
 }
 
+#title-heading {
+   color: var(--white-clr);
+   text-transform: uppercase;
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+

@@ -9,6 +9,7 @@
    --linear-bg-clr: linear-gradient(186deg, lightblue, #6fe1f0, rgb(99, 99, 182));
    --default-black-clr: #252525;
    --white-clr: #fff;
+   --size-popup-btn: rgb(42, 235, 235);
    --random-btn-clr: rgb(207, 112, 158);
    --reset-btn-clr: rgb(127, 168, 127);
    --content-white: #666060;
@@ -50,7 +51,15 @@ body {
 #header-section > button {
    width: 90px;
    height: 30px;
+   background: var(--size-popup-btn);
+   color: var(--content-white);
+   font-weight: bold;
+   border-radius: 1em;
+   border: none;
+   box-shadow: 1px 2px 1px #25252590;
+   text-transform: capitalize;
 }
+
 
 #drawing-grid {
    height: 300px;

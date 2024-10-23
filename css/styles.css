@@ -53,6 +53,7 @@ body {
 #drawing-grid {
    height: 300px;
    display: grid;
+   box-shadow: 1px 1px 3px 1px #25252540;
 }
 
 #footer-section {

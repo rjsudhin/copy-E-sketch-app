@@ -9,9 +9,11 @@
    --linear-bg-clr: linear-gradient(186deg, lightblue, #6fe1f0, rgb(99, 99, 182));
    --default-black-clr: #252525;
    --white-clr: #fff;
-   --random-btn-clr: rgb(124, 65, 94);
+   --random-btn-clr: rgb(207, 112, 158);
    --reset-btn-clr: rgb(127, 168, 127);
    --content-white: #666060;
+   --random-active-click: rgb(196, 49, 122);
+   --reset-active-click: rgb(52, 219, 52);
 }
 
 body {
@@ -68,7 +70,47 @@ body {
    height: 30px;
    border-radius: 1em;
    border: none;
+   font-weight: bold;
+   font-size: 0.8em;
+   text-transform: uppercase;
+   box-shadow: 1px 3px 1px #25252590;
 }
+
+/* Footer buttons */
+.black {
+   background-color: var(--default-black-clr);
+   color: var(--content-white);
+}
+
+.random {
+   background-color: var(--random-btn-clr);
+   color: var(--default-black-clr);
+}
+
+.reset {
+   background-color: var(--reset-btn-clr);
+   color: var(--default-black-clr);
+   
+}
+/* Footer buttons */
+
+/* button when active */
+.black:active {
+   background-color: #666060;
+   color: var(--white-clr);
+}
+
+.random:active {
+   background-color: var(--random-active-click);
+   color: var(--white-clr);
+}
+
+.reset:active {
+   background-color: var(--reset-active-click);
+   color: var(--white-clr);
+}
+/* button when active */
+
 
 #header-section, #drawing-grid, #footer-section {
    width: 300px;

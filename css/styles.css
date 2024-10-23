@@ -11,6 +11,7 @@
    --white-clr: #fff;
    --random-btn-clr: rgb(124, 65, 94);
    --reset-btn-clr: rgb(127, 168, 127);
+   --content-white: #666060;
 }
 
 body {
@@ -33,4 +34,42 @@ body {
    font-weight: bold;
 }
 
+#header-section {
+   display: flex;
+   justify-content: space-between;
+   padding: 1em 1.5em;
+}
 
+#header-section > p {
+   font-size: 1em;
+   color: var(--content-white);
+}
+
+#header-section > button {
+   width: 90px;
+   height: 30px;
+}
+
+#drawing-grid {
+   height: 300px;
+   display: grid;
+}
+
+#footer-section {
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#footer-section > button {
+   width: 80px;
+   height: 30px;
+   border-radius: 1em;
+   border: none;
+}
+
+#header-section, #drawing-grid, #footer-section {
+   width: 300px;
+   border: 1px solid black;
+}

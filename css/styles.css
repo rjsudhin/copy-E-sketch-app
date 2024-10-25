@@ -35,6 +35,7 @@ body {
    text-transform: uppercase;
    font-size: 1.5em;
    font-weight: bold;
+   display: none;
 }
 
 #header-section {
